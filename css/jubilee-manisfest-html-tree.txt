@@ -1,0 +1,53 @@
+
+<!--
+BODY
+    HEADER    
+        div: .full-widht
+            div: .half-width
+                h1: Jubille Austen
+            div: .half-width
+                nav(navigation bar)
+                    ul(unordered list)
+                        li: ABOUT
+                        li: WORK
+                        li: CONTACT
+        h2: Hi, I'm a dev.. -> span: Hi,
+    MAIN
+        section: #ABOUT
+            div: .full-width
+                h2:  A little bit..
+                div: .half-width
+                    p: I've made my home...
+                div: .half-width
+                    p: That curiosity...
+        section: #WORK
+            div: .full-width
+                div: .third-width
+                    img: html icon
+                    h3: Hand-Coded HTML
+                    p: My focus is writing...
+                div: .third-width
+                    img: css icon
+                    h3: Well-Organized CSS
+                    p: I pride myself on writing...
+                div: .third-width
+                    img: pencil icon
+                    h3: Ease Converting Designs into Code
+                    p: You can trust me...
+        footer: #CONTACT
+            div: .full-width
+                div: .half-width
+                    img: #contact-img
+                div: .half-width, #contact-info
+                    h2: Like what you see?
+                    h3: Let's meet... #email-header
+                    a: email-link -> img(#envelope): envelope icon
+                    a: email-link -> email
+                    h3: Or, find... #socialmedia-header)
+                        ul
+                            li: a: -> twitter icon
+                            li: a: -> tumblr icon
+                            li: a: -> Instagram icon
+                            li: a: -> LinkedIn icon
+                            li: a: -> GitHub icon        
+-->
