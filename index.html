@@ -4,38 +4,41 @@
 <head>
     <meta charset="utf-8">
     <title>Jubilee Austen | Portfolio</title>
-    <link rel="stylesheet" href="css/jubilee-normalize.css"/>
-    <link rel="stylesheet" href="css/jubilee-main.css"/>
-    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700&display=swap"
-        rel="stylesheet"/>
-    <link href="https://fonts.googleapis.com/css?family=Lora:400,700&display=swap" rel="stylesheet"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/jubilee-normalize.css" />
+    <link rel="stylesheet" href="css/jubilee-main.css" />
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,700&display=swap" rel="stylesheet" />
 </head>
 
 <body>
-    
+
     <!--HEADER SECTION-->
     <header>
-       
-        <div class="full-width">    
-            <div class="half-width">
-                <h1>Jubilee Austen</h1>
+        <div class="header-container">
+            <div id="first-row" class="full-width">
+                <div id="nav-div" class="half-width">
+                    <nav>
+                        <ul>
+                            <li><a href="#about">ABOUT</a></li>
+                            <li><a href="#work">WORK</a></li>
+                            <li><a href="#contact">CONTACT</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div id="title-div" class="half-width">
+                    <h1>Jubilee Austen</h1>
+                </div>
             </div>
-            <div class="half-width">
-                <nav>
-                    <ul>
-                        <li><a href="#about">ABOUT</a></li>
-                        <li><a href="#work">WORK</a></li>
-                        <li><a href="#contact">CONTACT</a></li>
-                    </ul>
-                </nav>
+            <div id="second-row" class="full-width">
+                <h2><span>Hi,</span> I'm a developer that loves clean &amp; elegant code.</h2>
             </div>
-            <h2><span>Hi,</span> I'm a developer that loves clean &amp; elegant code.</h2>
         </div>
     </header>
-    
+
     <!--MAIN SECTION:about, work, contact-->
     <main>
-        
+
         <!--ABOUT SECTION-->
         <section id="about">
             <div class="full-width">
@@ -58,13 +61,13 @@
                 </div>
             </div>
         </section>
-        
+
         <!--WORK SECTION-->
         <section id="work">
             <div class="full-width">
                 <div class="third-width">
-                    <figure>
-                        <img src="img/html-icon.png" alt="HTML icon"/>
+                    <figure id="figIconHTML">
+                        <img src="img/html-icon.png" alt="HTML icon" />
                     </figure>
                     <h3>Hand-Coded HTML</h3>
                     <p>My focus is writing clean, well-formatted, semantic HTML5 by hand to make sure that the content
@@ -72,14 +75,18 @@
                         collaborate, trouble-shoot and accessible.</p>
                 </div>
                 <div class="third-width">
-                    <img src="img/css-icon.png" alt="CSS icon"/>
+                    <figure id="figIconCSS">
+                        <img src="img/css-icon.png" alt="CSS icon" />
+                    </figure>
                     <h3>Well-Organized CSS</h3>
                     <p>I pride myself on writing CSS that is easy to read and build on. I focus on keeping my CSS lean
                         and fast to load, and I
                         make it a habit to stay up to date on current best practices.</p>
                 </div>
                 <div class="third-width">
-                    <img src="img/pencil-icon.png" alt="Pencil icon"/>
+                    <figure id="figIconPencil">
+                        <img src="img/pencil-icon.png" alt="Pencil icon" />
+                    </figure>
                     <h3>Ease Converting Designs into Code</h3>
                     <p>You can trust me to take a designer's PSD and quickly & accurately convert it into a webpage that
                         is pixel-perfect
@@ -92,20 +99,31 @@
         <footer id="contact">
             <div class="full-width">
                 <div class="half-width">
-                    <img id="contact-img" src="img/contact-image.png" alt="Woman working"/>
+                    <figure id="photo-fig">
+                        <img id="photo-img"src="img/contact-image.png" alt="Woman working" />
+                    </figure>
                 </div>
                 <div class="half-width" id="contact-info">
                     <h2>Like what you see?</h2>
                     <h3 id="email-header">Let's meet for a cup of coffee.</h3>
-                    <a href="mailto:hi@jubileeausten.com"><img id="envelope" src="img/envelope-icon.png" alt="Envelope icon" /></a>
+                    <a href="mailto:hi@jubileeausten.com">
+                        <figure id="envelope-fig">
+                            <img src="img/envelope-icon.png" alt="Envelope icon" />
+                        </figure>
+                    </a>
                     <a href="mailto:hi@jubileeausten.com">hi [@] jubileeausten.com</a>
                     <h3 id="socialmedia-header">Or, find me on the interwebs</h3>
                     <ul>
-                        <li><a href=""><img src="img/twitter-icon.png" alt="Twitter icon"/></a></li>
-                        <li><a href=""><img src="img/tumblr-icon.png" alt="Tumblr icon"/></a></li>
-                        <li><a href=""><img src="img/instagram-icon.png" alt="Instagram icon"/></a></li>
-                        <li><a href=""><img src="img/linkedIn-icon.png" alt="LinkedIn icon"/></a></li>
-                        <li><a href=""><img src="img/github-icon.png" alt="GitHub icon"/></a></li>
+                        <li id="item-twitter-icon"><a href=""><img src="img/twitter-icon.png" alt="Twitter icon" /></a>
+                        </li>
+                        <li id="item-tumblr-icon"><a href=""><img src="img/tumblr-icon.png" alt="Tumblr icon" /></a>
+                        </li>
+                        <li id="item-instagram-icon"><a href=""><img src="img/instagram-icon.png"
+                                    alt="Instagram icon" /></a></li>
+                        <li id="item-linkedin-icon"><a href=""><img src="img/linkedIn-icon.png"
+                                    alt="LinkedIn icon" /></a></li>
+                        <li id="item-github-icon"><a href=""><img src="img/github-icon.png" alt="GitHub icon" /></a>
+                        </li>
                     </ul>
                 </div>
             </div>
